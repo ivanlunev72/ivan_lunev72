@@ -1,12 +1,24 @@
 .nav{
     grid-area: n;
     background-color: burlywood;
+    padding: 20px;
     }
 
 .item {
     color: white;
+    text-decoration: none;
+    margin: 20px;
+    padding: 5px;
 } 
+
+a {
+    text-decoration: none;
+}
 
 .item.active {
     color: purple
+}
+
+.active {
+    color:deeppink;
 }
